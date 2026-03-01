@@ -8,7 +8,9 @@ int main()
 	set<int> s1;
 	set<int> s2;
 	unsigned start_value;
+	cout << "Enter start value: ";
 	cin >> start_value;
+	cout << "Enter stop value: ";
 	unsigned stop_value;
 	cin >> stop_value;
 	for (unsigned i = start_value; i <= stop_value; ++i)
