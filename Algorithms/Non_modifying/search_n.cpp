@@ -13,7 +13,7 @@ void print_found(T& c, int value)
 	while (found != c.end())
 	{
 		cout << value << " found " << count << " times at: " << distance(c.begin(), found) << endl;
-		found = search_n(found, c.end(), ++count, value);
+		found = search_n(c.begin(), c.end(), ++count, value);
 	}
 }
 
