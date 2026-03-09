@@ -98,4 +98,4 @@ without manually implementing these data structures.
 
 They provide specialized behavior by adapting existing sequential containers, making them efficient and easy to use.
 
-![Container adaptors](../imgs/Container_adaptors.png)
+![Container adaptors](../../imgs/Container_adaptors.png)

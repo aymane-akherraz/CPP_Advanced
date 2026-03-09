@@ -1,4 +1,4 @@
-# map and multimap (STL Associative Containers)
+# `map` and `multimap` (STL Associative Containers)
 
 The `map` and `multimap` classes are associative containers that store **key–value pairs** as elements. Both are defined in the same header:
 
@@ -10,7 +10,7 @@ They automatically maintain elements in **sorted order by key** using a comparat
 
 ---
 
-# Class Templates
+## Class Templates
 
 ```cpp
 template <
@@ -32,7 +32,7 @@ class multimap;
 
 ---
 
-# Template Parameters
+## Template Parameters
 
 | Parameter   | Description                                               |
 | ----------- | --------------------------------------------------------- |
@@ -43,7 +43,7 @@ class multimap;
 
 ---
 
-# Description
+## Description
 
 Both `map` and `multimap`:
 
@@ -64,7 +64,7 @@ std::pair<const Key, T>
 
 ---
 
-# Difference Between map and multimap
+## Difference Between `map` and `multimap`
 
 ![Diff between map and multimap](../../imgs/diff_map_multimap.png)
 
@@ -88,7 +88,7 @@ This requires the `<` operator to be defined for `Key`.
 
 ---
 
-# When a Custom Comparator Is Needed
+## When a Custom Comparator Is Needed
 
 You must provide a custom comparator if:
 
@@ -98,18 +98,18 @@ You must provide a custom comparator if:
 
 ---
 
-# Comparator Prototypes
+## Comparator Prototypes
 
 Two possible forms:
 
-## 1. Function Comparator
+### 1. Function Comparator
 
 ```cpp
 template <class Key>
 bool cmp(Key k1, Key k2);
 ```
 
-## 2. Functional Object (Recommended)
+### 2. Functional Object (Recommended)
 
 ```cpp
 template <class Key>
@@ -124,7 +124,7 @@ Functional objects are preferred because the comparator type must be supplied as
 
 ---
 
-# Important Notes About Keys
+## Important Notes About Keys
 
 * Keys inside `map` are **immutable** (`const Key`)
 * Modifying a key directly would break ordering
@@ -135,7 +135,7 @@ Functional objects are preferred because the comparator type must be supplied as
 
 # Constructors
 
-## map Constructors
+## `map` Constructors
 
 ```cpp
 explicit map(const Compare& comp = Compare(),
@@ -149,7 +149,7 @@ map(InputIterator first, InputIterator last,
 map(const map<Key, T, Compare, Allocator>& x);
 ```
 
-## multimap Constructors
+## `multimap` Constructors
 
 ```cpp
 explicit multimap(const Compare& comp = Compare(),
@@ -165,7 +165,7 @@ multimap(const multimap<Key, T, Compare, Allocator>& x);
 
 ---
 
-# Constructor Parameters
+## Constructor Parameters
 
 | Parameter     | Description                                                     |
 | ------------- | --------------------------------------------------------------- |
@@ -176,9 +176,9 @@ multimap(const multimap<Key, T, Compare, Allocator>& x);
 
 ---
 
-# Constructor Behavior
+## Constructor Behavior
 
-## 1. Default / Explicit Constructor
+### 1. Default / Explicit Constructor
 
 * Creates an empty container
 * Uses provided comparator and allocator (if supplied)
@@ -192,7 +192,7 @@ std::map<int, int> m;
 
 ---
 
-## 2. Range Constructor
+### 2. Range Constructor
 
 * Creates container using elements from another collection
 * Inserts elements from `[first, last)`
@@ -208,7 +208,7 @@ std::map<int, int> m(arr, arr + 4);
 
 ---
 
-## 3. Copy Constructor
+### 3. Copy Constructor
 
 * Creates an exact copy of another container
 * Template parameters must match exactly
@@ -222,7 +222,7 @@ std::map<int, int> m2(m1);
 
 ---
 
-# Ordering Behavior
+## Ordering Behavior
 
 Elements are always stored sorted by **key**:
 
