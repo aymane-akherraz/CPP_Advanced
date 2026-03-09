@@ -222,7 +222,7 @@ std::map<int, int> m2(m1);
 
 ---
 
-## Ordering Behavior
+# Ordering Behavior
 
 Elements are always stored sorted by **key**:
 
