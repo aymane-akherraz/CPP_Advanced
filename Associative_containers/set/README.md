@@ -52,7 +52,7 @@ Both `set` and `multiset`:
 
 ### Difference Between `set` and `multiset`
 
-![Diff between set and multiset](../../imgs/diff.png)
+![Diff between set and multiset](../../Imgs/diff.png)
 
 # Strict Weak Ordering & Comparator
 

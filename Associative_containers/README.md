@@ -153,4 +153,4 @@ Associative containers provide:
 
 They are ideal when order and fast searching are more important than memory footprint or random-access performance.
 
-![Associative containers](../imgs/Associative_containers.png)
+![Associative containers](../Imgs/Associative_containers.png)

@@ -132,7 +132,7 @@ Common member functions include:
 * `empty()` – Check if stack is empty
 * `size()` – Get number of elements
 
-![Stack](../../../imgs/Stack.png)
+![Stack](../../../Imgs/Stack.png)
 
 ---
 

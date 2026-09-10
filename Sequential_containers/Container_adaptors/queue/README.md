@@ -57,7 +57,7 @@ Any custom container implementing the required interface can also be used.
 
 The queue follows the First-In, First-Out principle:
 
-![Queue](../../../imgs/Queue.png)
+![Queue](../../../Imgs/Queue.png)
 
 * Elements are **added at the back**
 * Elements are **removed from the front**

@@ -104,4 +104,4 @@ Choose the container based on:
 * Insertion/removal needs
 * Memory and performance considerations
 
-![Sequence containers](../imgs/Sequence_containers.png)
+![Sequence containers](../Imgs/Sequence_containers.png)

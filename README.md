@@ -23,7 +23,7 @@ Conceptually, STL is divided into two main parts:
 
 ## STL Overview Diagram
 
-![STL Overview](imgs/STL_overview.png)
+![STL Overview](Imgs/STL_overview.png)
 
 ---
 

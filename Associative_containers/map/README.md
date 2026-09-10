@@ -66,7 +66,7 @@ std::pair<const Key, T>
 
 ## Difference Between `map` and `multimap`
 
-![Diff between map and multimap](../../imgs/diff_map_multimap.png)
+![Diff between map and multimap](../../Imgs/diff_map_multimap.png)
 
 # Strict Weak Ordering & Comparator
 

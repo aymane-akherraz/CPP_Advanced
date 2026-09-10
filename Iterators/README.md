@@ -16,7 +16,7 @@ In some cases (such as with `std::vector`), iterators may internally behave very
 
 ## Iterator Categories
 
-![Iterators categories](../imgs/Iterators_categories.png)
+![Iterators categories](../Imgs/Iterators_categories.png)
 
 There are **five categories of iterators**, each defined by the operations they support:
 
@@ -28,7 +28,7 @@ There are **five categories of iterators**, each defined by the operations they 
 | Bidirectional Iterator | Move forward and backward               |
 | Random Access Iterator | Direct indexing, arithmetic operations  |
 
-![Iterators](../imgs/Iterators.png)
+![Iterators](../Imgs/Iterators.png)
 
 ### Container Support
 
@@ -139,7 +139,7 @@ It:
 * Cannot be dereferenced.
 * Serves as a stopping condition for iteration.
 
-![Iterators init](../imgs/Iterators_init.png)
+![Iterators init](../Imgs/Iterators_init.png)
 
 Example:
 
