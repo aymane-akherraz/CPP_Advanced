@@ -273,4 +273,8 @@ g++ -std=c++17 main.cpp -o program
 
 ## 📖 License
 
-This course material is intended for educational purposes.
+The content in this repository is based on the **CPP Advanced** course from **Cisco Networking Academy (NetAcad)**.
+
+This repository is intended for **educational and learning purposes**. The original course material and concepts remain the property of their respective copyright holders.
+
+No ownership of the original NetAcad course material is claimed.
